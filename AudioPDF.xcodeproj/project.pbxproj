@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000001 /* ReaderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000001 /* ReaderModels.swift */; };
+		100000000000000000000002 /* TextCleanup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000002 /* TextCleanup.swift */; };
+		100000000000000000000003 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000003 /* Timeline.swift */; };
+		100000000000000000000004 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000004 /* CacheKey.swift */; };
+		100000000000000000000005 /* LibraryDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000005 /* LibraryDocument.swift */; };
+		100000000000000000000006 /* PDFExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000006 /* PDFExtractor.swift */; };
+		100000000000000000000007 /* VoiceModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000007 /* VoiceModels.swift */; };
+		100000000000000000000008 /* SherpaTTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000008 /* SherpaTTS.swift */; };
+		100000000000000000000009 /* AudioFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000009 /* AudioFiles.swift */; };
+		10000000000000000000000A /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000A /* PlaybackController.swift */; };
+		10000000000000000000000B /* ReaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000B /* ReaderController.swift */; };
+		10000000000000000000000C /* PDFReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000C /* PDFReaderView.swift */; };
+		10000000000000000000000E /* PlaybackBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000E /* PlaybackBar.swift */; };
+		10000000000000000000000F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000000F /* ContentView.swift */; };
+		100000000000000000000010 /* VoiceModelSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000010 /* VoiceModelSettingsView.swift */; };
+		100000000000000000000011 /* AudioPDFApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000011 /* AudioPDFApp.swift */; };
+		100000000000000000000012 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000012 /* PrivacyInfo.xcprivacy */; };
+		100000000000000000000013 /* TextCleanupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000013 /* TextCleanupTests.swift */; };
+		100000000000000000000014 /* TimelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000014 /* TimelineTests.swift */; };
+		100000000000000000000015 /* CacheKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000015 /* CacheKeyTests.swift */; };
+		100000000000000000000016 /* SherpaOnnxRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 700000000000000000000001 /* SherpaOnnxRuntime */; };
+		100000000000000000000018 /* TranscriptSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000016 /* TranscriptSearch.swift */; };
+		100000000000000000000019 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000017 /* PersistenceTests.swift */; };
+		10000000000000000000001A /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000018 /* LibraryStore.swift */; };
+		10000000000000000000001B /* PlaybackRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200000000000000000000019 /* PlaybackRate.swift */; };
+		10000000000000000000001C /* PlaybackRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001A /* PlaybackRateTests.swift */; };
+		10000000000000000000001D /* SynthesisTextChunker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001B /* SynthesisTextChunker.swift */; };
+		10000000000000000000001E /* SynthesisTextChunkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20000000000000000000001C /* SynthesisTextChunkerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		300000000000000000000001 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 800000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 400000000000000000000001;
+			remoteInfo = AudioPDF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200000000000000000000001 /* ReaderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModels.swift; sourceTree = "<group>"; };
+		200000000000000000000002 /* TextCleanup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCleanup.swift; sourceTree = "<group>"; };
+		200000000000000000000003 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		200000000000000000000004 /* CacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
+		200000000000000000000005 /* LibraryDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryDocument.swift; sourceTree = "<group>"; };
+		200000000000000000000006 /* PDFExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExtractor.swift; sourceTree = "<group>"; };
+		200000000000000000000007 /* VoiceModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModels.swift; sourceTree = "<group>"; };
+		200000000000000000000008 /* SherpaTTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaTTS.swift; sourceTree = "<group>"; };
+		200000000000000000000009 /* AudioFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioFiles.swift; sourceTree = "<group>"; };
+		20000000000000000000000A /* PlaybackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
+		20000000000000000000000B /* ReaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderController.swift; sourceTree = "<group>"; };
+		20000000000000000000000C /* PDFReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFReaderView.swift; sourceTree = "<group>"; };
+		20000000000000000000000E /* PlaybackBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackBar.swift; sourceTree = "<group>"; };
+		20000000000000000000000F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		200000000000000000000010 /* VoiceModelSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModelSettingsView.swift; sourceTree = "<group>"; };
+		200000000000000000000011 /* AudioPDFApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPDFApp.swift; sourceTree = "<group>"; };
+		200000000000000000000012 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		200000000000000000000013 /* TextCleanupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCleanupTests.swift; sourceTree = "<group>"; };
+		200000000000000000000014 /* TimelineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTests.swift; sourceTree = "<group>"; };
+		200000000000000000000015 /* CacheKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheKeyTests.swift; sourceTree = "<group>"; };
+		200000000000000000000016 /* TranscriptSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptSearch.swift; sourceTree = "<group>"; };
+		200000000000000000000017 /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		200000000000000000000018 /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+		200000000000000000000019 /* PlaybackRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackRate.swift; sourceTree = "<group>"; };
+		20000000000000000000001A /* PlaybackRateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackRateTests.swift; sourceTree = "<group>"; };
+		20000000000000000000001B /* SynthesisTextChunker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesisTextChunker.swift; sourceTree = "<group>"; };
+		20000000000000000000001C /* SynthesisTextChunkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesisTextChunkerTests.swift; sourceTree = "<group>"; };
+		200000000000000000000020 /* AudioPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioPDF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		200000000000000000000021 /* AudioPDFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPDFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		500000000000000000000001 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (100000000000000000000016 /* SherpaOnnxRuntime in Frameworks */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500000000000000000000002 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		600000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000002 /* AudioPDF */,
+				600000000000000000000005 /* AudioPDFTests */,
+				600000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600000000000000000000002 /* AudioPDF */ = {
+			isa = PBXGroup;
+			children = (
+				600000000000000000000003 /* Core */,
+				600000000000000000000004 /* App */,
+				200000000000000000000012 /* PrivacyInfo.xcprivacy */,
+			);
+			path = AudioPDF;
+			sourceTree = "<group>";
+		};
+		600000000000000000000003 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000001,
+				200000000000000000000002,
+				200000000000000000000003,
+				200000000000000000000004,
+				200000000000000000000016,
+				200000000000000000000019,
+				20000000000000000000001B,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		600000000000000000000004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000011,
+				20000000000000000000000F,
+				200000000000000000000005,
+				200000000000000000000018,
+				200000000000000000000006,
+				20000000000000000000000C,
+				20000000000000000000000E,
+				20000000000000000000000A,
+				20000000000000000000000B,
+				200000000000000000000009,
+				200000000000000000000008,
+				200000000000000000000007,
+				200000000000000000000010,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		600000000000000000000005 /* AudioPDFTests */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000013,
+				200000000000000000000014,
+				200000000000000000000015,
+				200000000000000000000017,
+				20000000000000000000001A,
+				20000000000000000000001C,
+			);
+			path = AudioPDFTests;
+			sourceTree = "<group>";
+		};
+		600000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200000000000000000000020,
+				200000000000000000000021,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		400000000000000000000001 /* AudioPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000002;
+			buildPhases = (
+				500000000000000000000003 /* Sources */,
+				500000000000000000000001 /* Frameworks */,
+				500000000000000000000004 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = AudioPDF;
+			packageProductDependencies = (700000000000000000000001 /* SherpaOnnxRuntime */,);
+			productName = AudioPDF;
+			productReference = 200000000000000000000020;
+			productType = "com.apple.product-type.application";
+		};
+		400000000000000000000002 /* AudioPDFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900000000000000000000003;
+			buildPhases = (
+				500000000000000000000005 /* Sources */,
+				500000000000000000000002 /* Frameworks */,
+				500000000000000000000006 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (300000000000000000000002 /* PBXTargetDependency */,);
+			name = AudioPDFTests;
+			productName = AudioPDFTests;
+			productReference = 200000000000000000000021;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					400000000000000000000001 = {CreatedOnToolsVersion = 16.0; };
+					400000000000000000000002 = {CreatedOnToolsVersion = 16.0; TestTargetID = 400000000000000000000001; };
+				};
+			};
+			buildConfigurationList = 900000000000000000000001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = 600000000000000000000001;
+			packageReferences = (700000000000000000000002 /* XCLocalSwiftPackageReference "SherpaOnnxRuntime" */,);
+			productRefGroup = 600000000000000000000006;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				400000000000000000000001,
+				400000000000000000000002,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		500000000000000000000004 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (100000000000000000000012,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500000000000000000000006 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		500000000000000000000003 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000001,
+				100000000000000000000002,
+				100000000000000000000003,
+				100000000000000000000004,
+				100000000000000000000005,
+				100000000000000000000006,
+				100000000000000000000007,
+				100000000000000000000008,
+				100000000000000000000009,
+				10000000000000000000000A,
+				10000000000000000000000B,
+				10000000000000000000000C,
+				10000000000000000000000E,
+				10000000000000000000000F,
+				100000000000000000000010,
+				100000000000000000000011,
+				100000000000000000000018,
+				10000000000000000000001A,
+				10000000000000000000001B,
+				10000000000000000000001D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		500000000000000000000005 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100000000000000000000013,
+				100000000000000000000014,
+				100000000000000000000015,
+				100000000000000000000019,
+				10000000000000000000001C,
+				10000000000000000000001E,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		300000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 400000000000000000000001;
+			targetProxy = 300000000000000000000001;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			MACOSX_DEPLOYMENT_TARGET = 14.0;
+			SWIFT_VERSION = 5.0;
+		}; name = Debug; };
+		A00000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {
+			CLANG_ENABLE_MODULES = YES;
+			MACOSX_DEPLOYMENT_TARGET = 14.0;
+			SWIFT_COMPILATION_MODE = wholemodule;
+			SWIFT_OPTIMIZATION_LEVEL = "-O";
+			SWIFT_VERSION = 5.0;
+		}; name = Release; };
+		A00000000000000000000003 /* Debug app */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Manual;
+			COMBINE_HIDPI_IMAGES = YES;
+			CURRENT_PROJECT_VERSION = 2;
+			ENABLE_APP_SANDBOX = NO;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "AudioPDF";
+			INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+			INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026";
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			MARKETING_VERSION = 0.1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.hpaulson.AudioPDF;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+		}; name = Debug; };
+		A00000000000000000000004 /* Release app */ = {isa = XCBuildConfiguration; buildSettings = {
+			CODE_SIGNING_ALLOWED = NO;
+			CODE_SIGN_STYLE = Manual;
+			COMBINE_HIDPI_IMAGES = YES;
+			CURRENT_PROJECT_VERSION = 2;
+			ENABLE_APP_SANDBOX = NO;
+			GENERATE_INFOPLIST_FILE = YES;
+			INFOPLIST_KEY_CFBundleDisplayName = "AudioPDF";
+			INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+			INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026";
+			LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks");
+			MARKETING_VERSION = 0.1.0;
+			PRODUCT_BUNDLE_IDENTIFIER = com.hpaulson.AudioPDF;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_EMIT_LOC_STRINGS = YES;
+		}; name = Release; };
+		A00000000000000000000005 /* Debug tests */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGNING_ALLOWED = NO;
+			GENERATE_INFOPLIST_FILE = YES;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioPDFTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioPDF.app/Contents/MacOS/AudioPDF";
+		}; name = Debug; };
+		A00000000000000000000006 /* Release tests */ = {isa = XCBuildConfiguration; buildSettings = {
+			BUNDLE_LOADER = "$(TEST_HOST)";
+			CODE_SIGNING_ALLOWED = NO;
+			GENERATE_INFOPLIST_FILE = YES;
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioPDFTests;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioPDF.app/Contents/MacOS/AudioPDF";
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000001, A00000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		900000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000003, A00000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		900000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000005, A00000000000000000000006,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		700000000000000000000002 /* XCLocalSwiftPackageReference "SherpaOnnxRuntime" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/SherpaOnnxRuntime;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		700000000000000000000001 /* SherpaOnnxRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 700000000000000000000002;
+			productName = SherpaOnnxRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 800000000000000000000001 /* Project object */;
+}

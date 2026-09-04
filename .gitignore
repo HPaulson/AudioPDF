@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager and local compiler caches
+.build/
+.swiftpm/
+.cache/
+
+# Locally generated release artifacts
+dist/
+.build-install/
+
+# Downloaded third-party voice models (recreated by scripts/fetch_voice_assets.sh)
+VoiceAssets/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
